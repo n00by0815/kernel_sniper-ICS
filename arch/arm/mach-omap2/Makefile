@@ -275,8 +275,7 @@ obj-$(CONFIG_MACH_LGE_HUB)		+= board-hub.o \
 					   board-hub-panel.o \
 					   board-hub-wifi.o \
 					   omapxx_apps_brd_id.o \
-					   board-hub-camera.o \
-					   lge_cmdline.o
+					   board-hub-camera.o
 #					   board-hub-ers.o \
 
 endif
@@ -369,4 +368,3 @@ obj-$(CONFIG_ARCH_OMAP4)		+= omap4-reboot-reason.o
 endif
 
 obj-$(CONFIG_ANDROID_RAM_CONSOLE)		+= omap_ram_console.o
-
